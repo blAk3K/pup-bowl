@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body{
+  background-color: blanchedalmond;
+}
+
+   img{
+    width: 200px; /* Set the desired width */
+    height: auto; /* Let the browser calculate the height to maintain aspect ratio */
+  
+  
+  /* Optionally, add styles to center the images */
+  
+    display: block;
+    margin: 0 auto;
+  }
+  header{
+   background-color: brown;
+    color: antiquewhite;
+    padding: 1px;
+    margin: 5px;
+  }
+  header:hover{
+    transition: 2s;
+    color: aqua;
+  }
+ button:hover{
+  color: aqua;
+  transition: 3s;
+  background-color: black;
+  
+ }
+ 
